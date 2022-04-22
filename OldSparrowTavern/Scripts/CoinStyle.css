@@ -1,0 +1,11 @@
+﻿.coin {
+    background-image: url("~/Images/MenuElements/gold.png");
+    background-size: 100% 100%;
+    border-radius: 100%;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    width: 100px;
+    -webkit-transition: 2s linear;
+    -webkit-transform-style: preserve-3d;
+}
