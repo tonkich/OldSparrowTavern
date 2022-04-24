@@ -65,7 +65,7 @@ border-color: #111; border-style:solid; height:860px">
                     else
                     {
                         <td style="width:120px;font-size:x-large;text-align:right;left:33px;">
-                            @using (Ajax.BeginForm("Buy", "Shop", new AjaxOptions { HttpMethod = "POST" }))
+                            @using (Ajax.BeginForm("Buy", "Shop", new AjaxOptions { HttpMethod = "Post" }))
                             {
                                 <audio id="sound1" src="~/Images/Sounds/buyItemSound.mp3" preload="auto"></audio>
                                 <input type="hidden" value="@item.ItemId" name="ItemId" />
